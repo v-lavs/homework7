@@ -304,9 +304,10 @@ body {
 }
 
 .form-group input {
-    font:400 18px/1.67 "Roboto Slab", serif;
-    width: 100%;
-    padding: 11px 210px 11px 36px;
+    font: 400 18px/1.67 "Roboto Slab", serif;
+    width: calc(100% - 215px);
+    padding: 11px 0 11px 36px;
+    display: block;
     border: transparent;
     background: transparent;
 }
@@ -384,13 +385,13 @@ body {
 }
 
 .product-item {
-    width: 50%;
+    width: 53%;
     padding: 26px 45px;
     overflow: hidden;
 }
 
 .thumb {
-    width: 50%;
+    width: 47%;
     float: right;
     border: 1px solid #edeff1;
     clear: both;

@@ -92,7 +92,7 @@ body {
 .banner-section {
     background: url(../img/cafe.jpg) no-repeat center;
     overflow: hidden;
-    min-height: 1321px;
+    height: 1321px;
     background-size: cover;
     max-width: 100%;
     color: #ffffff;

@@ -149,7 +149,6 @@ body {
 
 .box-img {
     width: 148px;
-    height: 148px;
     border-radius: 50%;
     border: 7px solid #edeff1;
     overflow: hidden;
@@ -285,9 +284,7 @@ body {
 .bg-inform-section {
     background: url(../img/kitchen.jpg) no-repeat center;
     overflow: hidden;
-    min-height: 385px;
     background-size: cover;
-    max-width: 100%;
     color: #ffffff;
     padding: 90px 0 110px;
     text-align: center;
@@ -305,6 +302,7 @@ body {
 
 .form-group input {
     font: 400 18px/1.67 "Roboto Slab", serif;
+    color: #ffffff;
     width: calc(100% - 215px);
     padding: 11px 0 11px 36px;
     display: block;
@@ -376,7 +374,6 @@ body {
 }
 
 .list-product-item li {
-    display: block;
     margin-bottom: 55px;
 }
 
